@@ -1,0 +1,40 @@
+main {
+  padding: 20px;
+}
+
+/* Style sections and articles */
+section, article {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e0f2f1;
+  border-radius: 10px;
+}
+
+/* Figures */
+figure {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Aside block */
+aside {
+  background-color: #d1fae5;
+  padding: 15px;
+  margin-top: 30px;
+  border-left: 5px solid #10b981;
+  border-radius: 8px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  figure {
+    display: block;
+    margin: 20px auto;
+  }
+}
