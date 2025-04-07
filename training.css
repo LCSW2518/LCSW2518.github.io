@@ -1,0 +1,33 @@
+/* Training table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #065f46;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #10b981;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0fdf4;
+}
+
+tbody tr:hover {
+  background-color: #d1fae5;
+  transition: 0.3s ease;
+}
